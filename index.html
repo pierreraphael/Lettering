@@ -4,26 +4,25 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="styles/main.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="scripts/jquery.lettering.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Fontdiner+Swanky|Freckle+Face|Frijole|Megrim|Press+Start+2P|Sancreek|Shojumaru|UnifrakturMaguntia" rel="stylesheet">
     <link rel="stylesheet" href="styles/colorbox.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="scripts/jquery.lettering.js"></script>
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/jquery.colorbox-min.js"></script>
-  </head>
+</head>
   <body>
     <h1 class="fancy_title">This is about letters</h1>
     <a class='gallery' href='images/image1.jpg'>Photo_1</a>
     <a class='gallery' href='images/image2.jpg'>Photo_2</a>
     <a class='gallery' href='images/image3.jpg'>Photo_3</a>
-    <script>
-  jQuery('a.gallery').colorbox();
-</script>
+
 
     <script>
   	  $(document).ready(function() {
   	    $(".fancy_title").lettering();
   	  });
+      jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1'});
   </script>
 
   </body>
