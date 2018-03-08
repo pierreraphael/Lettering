@@ -1,141 +1,158 @@
+body{
+  background-color: #56bbc1
+}
+h1{
+  text-align: center;
+}
 .char1 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 4em;
+  font-family: 'Karma', serif;
 
 }
 
 .char2 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char3 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char4 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char5 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char6 {
-  color : black;
+  color : #f4987b;
   font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Karma', serif;
 
 }
 .char7 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char8 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char9 {
-  color : red;
+  color : #f4987b;
   font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Karma', serif;
 
 }
 .char10 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char11 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char12 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 }
 .char13 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char14 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char15 {
-  color : red;
+  color : #f4987b;
   font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Karma', serif;
 
 
 }
 .char16 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char17 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char18 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 }
 .char19 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 
 }
 .char20 {
-  color : black;
-  font-size: 3em;
-  font-family: 'Black Ops One', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
 
 
 
 }
 .char21 {
-  color : red;
-  font-size: 3em;
-  font-family: 'Press Start 2P', cursive;
+  color : #f4987b;
+  font-size: 2em;
+  font-family: 'Karma', serif;
+}
+.gallery {
+  text-align: center;
+  color: #f4987b;
+}
 
-
-
+img {
+  border: 1px solid #f4987b; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+img:hover {
+  box-shadow : 0 0 2px 1px rgba(0,140,186,0.5);
 }
