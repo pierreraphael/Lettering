@@ -14,22 +14,22 @@
 </head>
   <body>
     <h1 class="fancy_title">This is about letters</h1>
-    <a class='gallery' href='images/image1.jpg'>Photo_1</a>
-    <a class='gallery' href='images/image2.jpg'>Photo_2</a>
-    <a class='gallery' href='images/image3.jpg'>Photo_3</a>
-    <a class='picto' href='images/image1.jpg'></a>
-      <a target="gallery" href="images/image1.jpg">
-    <img src="images/image1.jpg" alt="Botticelli">
-  </a>
-    <a class='picto' href='images/image2.jpg'></a>
-    <a target="gallery" href="images/image2.jpg">
-  <img src="images/image2.jpg" alt="Botticelli">
-  </a>
-    <a class='picto' href='images/image3.jpg'></a>
-    <a target="gallery" href="images/image3.jpg">
+
+<div class="thumb">
+
+
+    <a class='gallery' href="images/image1.jpg">
+      <img src="images/image1.jpg" alt="Botticelli">
+    </a>
+
+    <a class='gallery' href='images/image2.jpg'>
+        <img src="images/image2.jpg" alt="Botticelli">
+    </a>
+
+    <a class='gallery' href='images/image3.jpg'>
   <img src="images/image3.jpg" alt="Botticelli">
   </a>
-
+</div>
     <script>
   	  $(document).ready(function() {
   	    $(".fancy_title").lettering();

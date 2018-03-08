@@ -143,8 +143,9 @@ h1{
   font-family: 'Karma', serif;
 }
 .gallery {
-  text-align: center;
-  color: #f4987b;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -155,4 +156,12 @@ img {
 }
 img:hover {
   box-shadow : 0 0 2px 1px rgba(0,140,186,0.5);
+}
+
+.thumb {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;
+
 }
